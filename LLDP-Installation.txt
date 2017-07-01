@@ -1,0 +1,15 @@
+CentOS
+
+Install the vbernat repo on the box
+
+
+# Install the lldpd packages
+yum install lldpd
+yum install lldpad
+
+
+# This may not be necessary:
+systemctl start lldpd.service 
+
+
+service lldpd start
